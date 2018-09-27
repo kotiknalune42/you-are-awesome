@@ -3,9 +3,13 @@
 const createEnumerableProperty = () => {};
 const createNotEnumerableProperty = () => {};
 const createProtoMagicObject = () => {};
-const incrementor = () => {};
+const incrementor = () => {
+count++;
+return incrementor
+};
 const asyncIncrementor = () => {};
-const createIncrementer = () => {};
+const createIncrementer = () => {
+};
 
 // return same argument not earlier than in one second, and not later, than in two
 const returnBackInSecond = () => {};
